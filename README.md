@@ -12,7 +12,7 @@ This repository is supplement material for the paper: BIGbench: A Unified Benchm
   <img src="Figure/prompt_portion.png" width="75%"/>
 </p>
 
-* Multi-dimensional evaluation metric. Our evaluation metrics for generative bias cover six dimensions({implicit, explicit}$\times${gender, race, age}), four levels and the manifestation factor $`\eta`$ for each model.
+* Multi-dimensional evaluation metric. Our evaluation metrics for generative bias cover six dimensions({implicit, explicit} $\times$ {gender, race, age}), four levels and the manifestation factor $`\eta`$ for each model.
 <p align="center">
   <img src="Figure/metric.png" width="75%"/>
 </p>
