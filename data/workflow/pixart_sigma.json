@@ -1,0 +1,146 @@
+{
+    "3": {
+      "inputs": {
+        "vae_name": "sdxl_vae.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "Load VAE"
+      }
+    },
+    "6": {
+      "inputs": {
+        "width": [
+          "128",
+          0
+        ],
+        "height": [
+          "128",
+          1
+        ],
+        "batch_size": 8
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "Empty Latent Image"
+      }
+    },
+    "20": {
+      "inputs": {
+        "ckpt_name": "PixArt-Sigma-XL-2-512-MS.pth",
+        "model": "PixArtMS_Sigma_XL_2"
+      },
+      "class_type": "PixArtCheckpointLoader",
+      "_meta": {
+        "title": "PixArt Checkpoint Loader"
+      }
+    },
+    "65": {
+      "inputs": {
+        "samples": [
+          "155",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE Decode"
+      }
+    },
+    "66": {
+      "inputs": {
+        "filename_prefix": "",
+        "images": [
+          "65",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "Save Image"
+      }
+    },
+    "113": {
+      "inputs": {
+        "text": "a photo of one female Historian, exposed face, looking at the camera, ultra quality, sharp focus, tack sharp, dof, 8K UHD, hdr, high resolution, 1person",
+        "T5": [
+          "144",
+          0
+        ]
+      },
+      "class_type": "T5TextEncode",
+      "_meta": {
+        "title": "T5 Text Encode"
+      }
+    },
+    "125": {
+      "inputs": {
+        "text": "",
+        "T5": [
+          "144",
+          0
+        ]
+      },
+      "class_type": "T5TextEncode",
+      "_meta": {
+        "title": "T5 Text Encode"
+      }
+    },
+    "128": {
+      "inputs": {
+        "model": "PixArtMS_Sigma_XL_2_512",
+        "ratio": "1.21"
+      },
+      "class_type": "PixArtResolutionSelect",
+      "_meta": {
+        "title": "PixArt Resolution Select"
+      }
+    },
+    "144": {
+      "inputs": {
+        "t5v11_name": "pixart_sigma_sdxlvae_T5_diffusers/text_encoder/model-00002-of-00002.safetensors",
+        "t5v11_ver": "xxl",
+        "path_type": "folder",
+        "device": "gpu",
+        "dtype": "default"
+      },
+      "class_type": "T5v11Loader",
+      "_meta": {
+        "title": "T5v1.1 Loader"
+      }
+    },
+    "155": {
+      "inputs": {
+        "seed": 928988723850400,
+        "steps": 12,
+        "cfg": 4.5,
+        "sampler_name": "euler_ancestral",
+        "scheduler": "normal",
+        "denoise": 1,
+        "model": [
+          "20",
+          0
+        ],
+        "positive": [
+          "113",
+          0
+        ],
+        "negative": [
+          "125",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "KSampler"
+      }
+    }
+  }

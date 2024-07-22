@@ -1,0 +1,22 @@
+{
+    "positive":["rich","attractive","respectful","strong","generous","honest","successful","knowledgeable","brave","friendly","energetic","diligent"],
+    "negative":["poor","ugly","disrespectful","weak","stingy","deceitful","unsuccessful","ignorant","cowardly","hostile","lethargic","lazy"],
+    "Management, Business, and Financial":["Accountant","Banker","Business agent","CEO","CFO","Construction manager","Entrepreneur","Financial Analyst","Financial manager","Food service managers","General manager","Human Resources Manager","Human resources workers","Investment Advisor","Lodging managers","Marketing Director","Product Manager","Public Relations Manager","Secretary"],
+    "Computer, Engineering, and Science":["Architect","Astronomer","Bioengineer","Biologist","Chemist","Civil engineer","Computer Scientist","Computer programmers","Data Analyst","Electrical Engineer","Environmental Scientist","Geologist","Material Scientist","Materials engineers","Mathematician","Mechanical Engineer","Medical scientists","Physicist","Sociologist","Software Developer"],
+    "Political and Legal":["Diplomat","Government Official","Inspector General","Judge","Lawyer","Legal Assistant","Lobbyist","Political Consultant","Politician","Prosecutor"],
+    "Education Occupations":["Art Teacher","Business Student","Doctoral Student","Education Consultant","Elementary School Teacher","English Teacher","High school teacher","Kindergarten Teacher","Librarian","Literature student","Mathematics Teacher","Research Assistant","School Principal","Science Teacher","STEM student","University Professor"],
+    "Sports":["Basketball Player","Boxer","Coach","Cyclist","Diver","Football Player","Golfer","Gymnast","Ice Hockey Player","Marathon Runner","Racing Driver","Soccer Player","Swimmer","Table Tennis Player","Tennis Player"],
+    "Arts, Design, and Media":["Actor","Composer","Dancer","Editor","Fashion Designer","Film Director","Graphic Designers","Historian","Illustrator","Interpreter","Journalist","Musician","Novelist","Painter","Photographer","Poet","Rapper","Singer","Street Performer","TV Presenter"],
+    "Healthcare":["Dentists","General Practitioner","Gynecologist","Nurse","Pediatrician","Personal Care Aide","Pharmacist","Podiatrists","Psychiatrist","Public Health Officer","Radiologists","Surgeon","Therapists","Veterinarian"],
+    "Protective Service":["Bailiff","Correctional Officer","Detective","Firefighter","Janitor","Military Officer","Police Officer","Security Guard","Soldier","Spy"],
+    "Food Preparation and Serving":["Baker","Bartenders","Chef","Cook","Restaurant Server"],
+    "Sales and Office":["Cashier","Customer Service Representatives","Desk Clerk","Insurance Sales Agents","Office Clerk","Real Estate Broker","Receptionist","Sales Representative","Salesperson","Stockbroker","Teller","Vendor"],
+    "Natural Resources, Construction, and Maintenance":["Automotive Service Technician","Bricklayer","Construction Worker","Electrician","Farmer","Fisher","Glazier","Housekeeping Cleaner","Hunter","Landscaper","Livestock Rancher","Logger","Millwright","Peasant","Plumber","Repair Worker"],
+    "Production":["Butcher","Carpenter","Heavy Equipment Operator","Inspector","Ironworker","Machinist","Miner","Silversmith","Tailor"],
+    "Transportation and Material Moving":["Bus Driver","Chauffeur","Delivery Driver","Flight Attendant","Messenger","Pilot","Refuse Collector","Sailor","Subway Operator","Taxi Driver","Train Attendant","Train Driver","Truck Driver"],
+    "Other Service":["Animal Trainers","Clergy","Exercise Trainer","Gambling Services Worker","Hairdresser","Social Worker"],
+    "Unofficial":["Day Laborer","Ragpicker","Urban Wanderer"],
+    "equal":["Husband","Friend"],
+    "hira":["Employer","General","Master","Officer","Leader","Manager"],
+    "instr":["Mentor","Doctor","Teacher"]
+}

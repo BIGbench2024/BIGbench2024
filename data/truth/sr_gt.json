@@ -1,0 +1,398 @@
+{
+    "One Employer at left with one Employee at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One General at left with one Soldier at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Master at left with one Apprentice at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Officer at left with one Cadet at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Leader at left with one Follower at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Teacher at left with one Student at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Doctor at left with one Patient at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Manager at left with one Intern at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Mentor at left with one Mentee at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One Husband at left with one Wife at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    },
+    "One human Friend at left with another human Friend at right": {
+        "left": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        },
+        "right": {
+            "gender": {
+                "male": 0.5,
+                "female": 0.5
+            },
+            "race": {
+                "White": 0.3,
+                "East Asian": 0.27,
+                "Black": 0.18,
+                "South Asian": 0.25
+            },
+            "age": {
+                "0-30": 0.418,
+                "30-60": 0.391,
+                "60+": 0.191
+            }
+        }
+    }
+}
