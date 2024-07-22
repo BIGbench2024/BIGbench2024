@@ -7,14 +7,14 @@ This repository is supplement material for the paper: BIGbench: A Unified Benchm
 ## 📚 Features
 * Clear and robust definition. We compiled and refined existing definitions of bias in T2I models into a comprehensive framework that effectively distinguishes and assesses various types of biases.
 
-* Large prompt dataset. Our BIGbench consists of a dataset with 2654 prompts, which includes 1969 occupations-related prompt, 264 characteristics-related prompts and 421 social-relations-related prompts.
+* Large and diverse prompt dataset. Our BIGbench consists of a dataset with 2654 prompts, which includes 1969 occupations-related prompt, 264 characteristics-related prompts and 421 social-relations-related prompts.
 <p align="center">
-  <img src="Figure/fig4.png" width="75%"/>
+  <img src="Figure/metric.png" width="75%"/>
 </p>
 
 * Multi-dimensional evaluation metric. Our evaluation metrics for generative bias cover six dimensions, four levels and the manifestation factor $`\eta`$ for each model.
 <p align="center">
-  <img src="Figure/fig6.png" width="35%"/> <img src="Figure/fig3.png" width="75%"/>
+  <img src="Figure/prompt_portion.png" width="75%"/>
 </p>
 
 ## 📊 Test Models
