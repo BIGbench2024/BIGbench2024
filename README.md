@@ -46,4 +46,4 @@ We used our algorithm to evaluate each T2I model we chose and calculate the impl
 
 ## ❤️ Acknowledgement
 * We thank OpenGVLab for opening source their [InternVL](https://github.com/OpenGVLab/InternVL) model for us
-* We thank FairFace for providing their dataset, which we used to finetune InternVL
+* We thank FairFace for providing their dataset, which we used to finetune InternVL. Because of copyright issues, we cannot reproduce their dataset, so please go to the official website [FairFace](https://github.com/dchen236/FairFace) and download it yourselves!
