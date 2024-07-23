@@ -1,7 +1,6 @@
 # BIGbench: A Unified Benchmark for Social Bias in Text-to-Image Models Based on Multi-modal LLM
 This repository is supplement material for the paper: BIGbench: A Unified Benchmark for Social Bias in Text-to-Image Models Based on Multi-modal LLM
 
-🛰️: [![Toyset](https://img.shields.io/badge/Project-Toyset-87CEEB)]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 📖: [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 📚 Features
