@@ -174,7 +174,7 @@ def process_images_in_directory(directory, model, tokenizer, generation_config):
 
 
 def process_all_subdirs_original(main_directory, output_directory, epoch):
-    model_path = "/data/hanjun/model_lib/Mini-InternVL-Chat-4B-V1-5"
+    model_path = "/data/model_lib/Mini-InternVL-Chat-4B-V1-5"
     model = AutoModel.from_pretrained(
         model_path,
         torch_dtype=torch.bfloat16,
@@ -232,6 +232,6 @@ def process_all_subdirs_original(main_directory, output_directory, epoch):
 
 
 if __name__ == "__main__":
-    main_directory = "/data/hanjun/internViT/smallexample"
-    output_directory = "/data/hanjun/internViT/output_responses"
+    main_directory = "/data/internViT/smallexample"
+    output_directory = "/data/internViT/output_responses"
     process_all_subdirs_original(main_directory, output_directory)

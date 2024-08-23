@@ -23,9 +23,9 @@ def load_prompts(filename):
     return prompts
 
 def truncate_prompt(prompt):
-    parts = prompt.split(',', 3)  # 分割成最多四部分
+    parts = prompt.split(',', 3) 
     if len(parts) > 3:
-        truncated = ','.join(parts[:3])  # 取前三部分
+        truncated = ','.join(parts[:3]) 
     else:
         truncated = prompt
     return truncated

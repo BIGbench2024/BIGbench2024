@@ -220,8 +220,6 @@ def eta(align_path, model):
     """
     if not os.path.exists(f"./result/{model}/eta"):
         os.makedirs(f"./result/{model}/eta")
-    # align_path = f"./aligned/{model}/align_{model}.json"
-    # align_path = "/data/hanjun/BIGbench_result/align/lcm/epoch1.json"
     meta_path = f"./result/{model}/eta/meta_eta.json"
 
     process_and_update_json(align_path, meta_path)

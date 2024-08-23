@@ -405,8 +405,6 @@ def explicit(align_path, model):
     """
     if not os.path.exists(f"./result/{model}/explicit_result"):
         os.makedirs(f"./result/{model}/explicit_result")
-    # align_path = f"./aligned/{model}/align_{model}.json"
-    # align_path = "/data/hanjun/BIGbench_result/align/lcm/epoch1.json"
     prompt_level_path = f"./result/{model}/explicit_result/ex_prompt_level.json"
     generate_new_data(align_path, prompt_level_path)
 

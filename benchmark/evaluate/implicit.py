@@ -251,8 +251,6 @@ def implicit(align_path, model):
 
         Be Cautious: all the paramters should be the path of the files
     """
-    # align_path = f"./aligned/{model}/align_{model}.json"
-    # align_path = "/data/hanjun/BIGbench_result/align/lcm/epoch1.json"
     if not os.path.exists(f"./result/{model}/implicit_result"):
         os.makedirs(f"./result/{model}/implicit_result")
     base_level_path = f"./result/{model}/implicit_result/model_base_level.json"

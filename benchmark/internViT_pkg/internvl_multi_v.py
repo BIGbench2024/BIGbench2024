@@ -303,7 +303,7 @@ def process_multi_person_images_in_directory(directory, model, tokenizer, genera
     return responses, stats_left, stats_right, valid_image_count, inference_time
 
 def process_all_subdirs_multi(main_directory, output_directory, model_name):
-    model_path = "/data/hanjun/model_lib/InternVL-4B-bench"
+    model_path = "/data/model_lib/InternVL-4B-bench"
     model = AutoModel.from_pretrained(
         model_path,
         torch_dtype=torch.bfloat16,
